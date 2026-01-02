@@ -1,0 +1,79 @@
+{
+  "title": "Interactive 360 Video",
+  "description": "Put texts, tasks and other medias on top of your video.",
+  "license": "MIT",
+  "contentType": "Media",
+  "majorVersion": 1,
+  "minorVersion": 1,
+  "patchVersion": 182,
+  "machineName": "H5P.Interactive360Video",
+  "author": "Joubel (modified by Veljko Markovic, supervised by Lorenzo Sommaruga)",
+  "embedTypes": [
+    "iframe"
+  ],
+  "runnable": 1,
+  "fullscreen": 1,
+  "coreApi": {
+    "majorVersion": 1,
+    "minorVersion": 27
+  },
+  "preloadedJs": [
+    {
+      "path": "dist/h5p-interactive-360-video.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "dist/h5p-interactive-360-video.css"
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "FontAwesome",
+      "majorVersion": 4,
+      "minorVersion": 5
+    },
+    {
+      "machineName": "jQuery.ui",
+      "majorVersion": 1,
+      "minorVersion": 10
+    },
+    {
+      "machineName": "H5P.ThreeJS",
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    {
+      "machineName": "H5P.Video",
+      "majorVersion": 1,
+      "minorVersion": 6
+    },
+    {
+      "machineName": "H5P.DragNBar",
+      "majorVersion": 1,
+      "minorVersion": 5
+    },
+    {
+      "machineName": "H5P.Components",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
+  ],
+  "editorDependencies": [
+    {
+      "machineName": "H5P.Interactive360Video",
+      "majorVersion": 1,
+      "minorVersion": 1
+    },
+    {
+      "machineName": "H5PEditor.Wizard",
+      "majorVersion": 1,
+      "minorVersion": 2
+    },
+    {
+      "machineName": "H5PEditor.Interactive360Video",
+      "majorVersion": 1,
+      "minorVersion": 1
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Node modules (should not be committed)
+node_modules/
+package-lock.json
+
+# Build artifacts (keep dist/ as it's required by H5P)
+*.log
+npm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*~
+*.tmp
+*.bak
+*.orig
+
